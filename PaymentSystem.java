@@ -67,7 +67,7 @@ public class PaymentSystem {
 
         System.out.print("Enter Amount to Send: ");
         int amount = sc.nextInt();
-        sc.nextLine(); // consume leftover newline
+        sc.nextLine(); 
 
         System.out.print("Enter PIN: ");
         int pin = sc.nextInt();
